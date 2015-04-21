@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Orchard_Edilexpert_PRODModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Edilex_Documents_DocumentPartRecord">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="ContentItemRecord_id" Type="int" />
+          <Property Name="RFP_id" Type="int" />
+          <Property Name="DocBlockTree" Type="nvarchar(max)" />
+          <Property Name="DocumentType" Type="nvarchar" MaxLength="255" />
+          <Property Name="DocumentStyle" Type="nvarchar" MaxLength="255" />
+          <Property Name="DocumentState" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityContainer Name="Orchard_Edilexpert_PRODModelStoreContainer">
+          <EntitySet Name="Edilex_Documents_DocumentPartRecord" EntityType="Self.Edilex_Documents_DocumentPartRecord" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Orchard_Edilexpert_PRODModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Edilex_Documents_DocumentPartRecord">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="ContentItemRecord_id" Type="Int32" />
+          <Property Name="RFP_id" Type="Int32" />
+          <Property Name="DocBlockTree" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="DocumentType" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="DocumentStyle" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="DocumentState" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="Orchard_Edilexpert_PRODEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Edilex_Documents_DocumentPartRecord" EntityType="Self.Edilex_Documents_DocumentPartRecord" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Orchard_Edilexpert_PRODModelStoreContainer" CdmEntityContainer="Orchard_Edilexpert_PRODEntities">
+          <EntitySetMapping Name="Edilex_Documents_DocumentPartRecord">
+            <EntityTypeMapping TypeName="Orchard_Edilexpert_PRODModel.Edilex_Documents_DocumentPartRecord">
+              <MappingFragment StoreEntitySet="Edilex_Documents_DocumentPartRecord">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ContentItemRecord_id" ColumnName="ContentItemRecord_id" />
+                <ScalarProperty Name="RFP_id" ColumnName="RFP_id" />
+                <ScalarProperty Name="DocBlockTree" ColumnName="DocBlockTree" />
+                <ScalarProperty Name="DocumentType" ColumnName="DocumentType" />
+                <ScalarProperty Name="DocumentStyle" ColumnName="DocumentStyle" />
+                <ScalarProperty Name="DocumentState" ColumnName="DocumentState" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

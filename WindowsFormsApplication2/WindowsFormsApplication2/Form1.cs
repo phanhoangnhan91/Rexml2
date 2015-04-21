@@ -28,7 +28,17 @@ namespace WindowsFormsApplication2
             //{
             //    XmlNodeList chilnode = xmlNode.SelectNodes("ContentItemVersionId");
             //}
-            Read();
+            Orchard_Edilexpert_PRODEntities et = new Orchard_Edilexpert_PRODEntities();
+            var blogs = from b in et.Edilex_Documents_DocumentPartRecord
+                        where b.Id < 114052 && b.DocumentType!=null
+                        select b.DocBlockTree; 
+
+           // var student = L2EQuery.FirstOrDefault<String>();
+            foreach (var group in blogs)
+            {
+                string a = group;
+            }
+
         }
 
         private void Read()
