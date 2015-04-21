@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication2", "WindowsFormsApplication2\WindowsFormsApplication2.csproj", "{597463F5-C6AC-4E4B-9C8A-23D7E9E1712A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteXML", "WindowsFormsApplication2\WriteXML.csproj", "{597463F5-C6AC-4E4B-9C8A-23D7E9E1712A}"
 EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
