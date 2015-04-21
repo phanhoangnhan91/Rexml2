@@ -1,0 +1,55 @@
+<root>
+    <DocBlock>
+		<DocumentId>225309</DocumentId>
+		<ContentType>Poste</ContentType>
+		<ContentItemId>183</ContentItemId>
+		<ContentItemVersionId>198</ContentItemVersionId>
+		<ClauseMasterId>0</ClauseMasterId>
+		<ClauseOriginId>183</ClauseOriginId>
+		<ClauseVersion />
+		<Position>1</Position>
+		<EdilexIdentifier />
+		<NonAvailable>false</NonAvailable>
+		<IsUnique>false</IsUnique>
+		<IsUserChoice>false</IsUserChoice>
+		<FacultativeRefused>false</FacultativeRefused>
+		<IsFacultative>false</IsFacultative>
+		<Children>
+			<DocBlock>
+				<DocumentId>225309</DocumentId>
+				<ContentType>Poste</ContentType>
+				<ContentItemId>177</ContentItemId>
+				<ContentItemVersionId>192</ContentItemVersionId>
+				<ClauseMasterId>0</ClauseMasterId>
+				<ClauseOriginId>177</ClauseOriginId>
+				<ClauseVersion />
+				<Position>2</Position>
+				<EdilexIdentifier />
+				<NonAvailable>false</NonAvailable>
+				<IsUnique>false</IsUnique>
+				<IsUserChoice>false</IsUserChoice>
+				<FacultativeRefused>false</FacultativeRefused>
+				<IsFacultative>false</IsFacultative>
+				<Children>
+					<DocBlock>
+						<DocumentId>225309</DocumentId>
+						<ContentType>Poste</ContentType>
+						<ContentItemId>177</ContentItemId>
+						<ContentItemVersionId>192</ContentItemVersionId>
+						<ClauseMasterId>0</ClauseMasterId>
+						<ClauseOriginId>177</ClauseOriginId>
+						<ClauseVersion />
+						<Position>2</Position>
+						<EdilexIdentifier />
+						<NonAvailable>false</NonAvailable>
+						<IsUnique>false</IsUnique>
+						<IsUserChoice>false</IsUserChoice>
+						<FacultativeRefused>false</FacultativeRefused>
+						<IsFacultative>false</IsFacultative>
+						<Children />
+					</DocBlock>
+				</Children>
+			</DocBlock>
+		</Children>
+	</DocBlock>
+</root>
