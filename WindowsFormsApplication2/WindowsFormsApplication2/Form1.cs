@@ -39,7 +39,7 @@ namespace WindowsFormsApplication2
             foreach (var contents in blogs)
             {
                 String contents2 = contents.Replace("utf-16","utf-8");
-                System.IO.File.WriteAllText(@"companyName.xml", contents2);
+                System.IO.File.WriteAllText(@"input.xml", contents2);
                 Read();
             }
             MessageBox.Show("Done!");
@@ -47,7 +47,7 @@ namespace WindowsFormsApplication2
 
         private void Read()
         {
-            XDocument doc = XDocument.Load("companyName.xml");
+            XDocument doc = XDocument.Load("input.xml");
             var groups = (from dg in doc.Descendants("DocBlock")
                           // where dg.Attribute("name").Value == "Sikker"
                           // from g in dg.Elements("ContentType")
