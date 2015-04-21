@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,8 +29,8 @@ namespace WindowsFormsApplication2
             //{
             //    XmlNodeList chilnode = xmlNode.SelectNodes("ContentItemVersionId");
             //}
-            
-            
+
+
         }
 
         private void Read()
@@ -49,7 +49,7 @@ namespace WindowsFormsApplication2
 
                           });
 
-            String text = 
+            String text =
 @"<document>
     <nodes>
 ";
@@ -57,28 +57,28 @@ namespace WindowsFormsApplication2
             {
                 string ParentID = "";
                 string ParentID2 = "";
-                if (group.Parent != null && group.Parent.Parent!=null)
+                if (group.Parent != null && group.Parent.Parent != null)
                 {
-                    ParentID =( group.Parent.Parent.Element("ContentItemVersionId")!=null)?group.Parent.Parent.Element("ContentItemVersionId").Value:"";
-                    ParentID2 = (group.Parent.Parent.Element("ContentItemId")!=null)?group.Parent.Parent.Element("ContentItemId").Value:"";
+                    ParentID = (group.Parent.Parent.Element("ContentItemVersionId") != null) ? group.Parent.Parent.Element("ContentItemVersionId").Value : "";
+                    ParentID2 = (group.Parent.Parent.Element("ContentItemId") != null) ? group.Parent.Parent.Element("ContentItemId").Value : "";
                 }
                 // viet ra cấu trúc cần thiết
-            //    <node type="poste" parent="">
-            //    <id></id>
-            //    <position></position>
-            //</node>
+                //    <node type="poste" parent="">
+                //    <id></id>
+                //    <position></position>
+                //</node>
                 String note = String.Format(
 @"      <node type=""{0}"" ParentVersionId=""{1}"" ParentId=""{4}"">
             <VersionId>{2}</VersionId>
             <id>{5}</id>
             <position>{3}</position>
         </node>
-", group.contentType, ParentID, group.ID, group.Position, ParentID2,group.ID2);
+", group.contentType, ParentID, group.ID, group.Position, ParentID2, group.ID2);
                 text += note;
 
                 //  sikkerSone += group.g + ";";
             }
-            text += 
+            text +=
 @"  </nodes>
 </document>";
             using (FileStream fs = new FileStream("result.xml", FileMode.Append, FileAccess.Write))
@@ -90,28 +90,32 @@ namespace WindowsFormsApplication2
 
         private void buttonExport_Click(object sender, EventArgs e)
         {
-            Orchard_Edilexpert_PRODEntities et = new Orchard_Edilexpert_PRODEntities();
-           
+            var et = new Orchard_Edilexpert_PRODEntities();
+
             if (radioButton1.Checked)
             {
                 int _from = Convert.ToInt32(txtFrom.Text);
                 int _to = Convert.ToInt32(txtTo.Text);
-                blogs = from b in et.Edilex_Documents_DocumentPartRecord
-                        where b.Id >= _from && b.Id <= _to && b.DocBlockTree != null
-                        select b.DocBlockTree;
+                //blogs = et.Edilex_Documents_DocumentPartRecord.Where(r => r.Id >= _from && r.Id <= _to && r.DocBlockTree != null).Select(r=>r.DocBlockTree).ToList();
+                data = (from b in et.Edilex_Documents_DocumentPartRecord
+                         where b.Id >= _from && b.Id <= _to && b.DocBlockTree != null
+                         select b.DocBlockTree).ToList();
             }
             else if (raAll.Checked)
             {
-                blogs = from b in et.Edilex_Documents_DocumentPartRecord
-                        where  b.DocBlockTree != null
-                        select b.DocBlockTree;
+                data = (from b in et.Edilex_Documents_DocumentPartRecord
+                         where b.DocBlockTree != null
+                         select b.DocBlockTree).ToList();
 
             }
-            if(blogs==null)
+            if (data == null||data.Count==0)
             {
                 MessageBox.Show("Không có dữ liệu Docblock trong khoảng chọn");
                 return;
             }
+            //  clear contend  
+
+            File.WriteAllText("result.xml", String.Empty);
 
             // write đoạn đầu
             using (FileStream fs = new FileStream("result.xml", FileMode.Append, FileAccess.Write))
@@ -120,7 +124,7 @@ namespace WindowsFormsApplication2
                 sw.WriteLine("<documents>");
             }
             // var student = L2EQuery.FirstOrDefault<String>();
-            foreach (var contents in blogs)
+            foreach (var contents in data)
             {
                 String contents2 = contents.Replace("utf-16", "utf-8");
                 System.IO.File.WriteAllText(@"input.xml", contents2);
@@ -135,6 +139,6 @@ namespace WindowsFormsApplication2
             MessageBox.Show("Done!");
         }
 
-        public IQueryable<string> blogs { get; set; }
+        public List<string> data { get; set; }
     }
 }
