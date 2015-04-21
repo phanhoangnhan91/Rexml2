@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,17 +29,20 @@ namespace WindowsFormsApplication2
             //{
             //    XmlNodeList chilnode = xmlNode.SelectNodes("ContentItemVersionId");
             //}
+            
             Orchard_Edilexpert_PRODEntities et = new Orchard_Edilexpert_PRODEntities();
             var blogs = from b in et.Edilex_Documents_DocumentPartRecord
-                        where b.Id < 114052 && b.DocumentType!=null
+                        where b.Id < 114000 && b.DocBlockTree != null
                         select b.DocBlockTree; 
 
            // var student = L2EQuery.FirstOrDefault<String>();
-            foreach (var group in blogs)
+            foreach (var contents in blogs)
             {
-                string a = group;
+                String contents2 = contents.Replace("utf-16","utf-8");
+                System.IO.File.WriteAllText(@"companyName.xml", contents2);
+                Read();
             }
-
+            MessageBox.Show("Done!");
         }
 
         private void Read()
@@ -49,41 +53,51 @@ namespace WindowsFormsApplication2
                           // from g in dg.Elements("ContentType")
                           select new
                           {
-                              contentType = dg.Element("ContentType").Value,
-                              ID = dg.Element("ContentItemVersionId").Value,
-                              ID2 = dg.Element("ContentItemId").Value,
-                              Position = dg.Element("Position").Value,
+                              contentType = (dg.Element("ContentType") != null) ? dg.Element("ContentType").Value : "",
+                              ID = (dg.Element("ContentItemVersionId") != null) ? dg.Element("ContentItemVersionId").Value : "",
+                              ID2 = (dg.Element("ContentItemId") != null) ? dg.Element("ContentItemId").Value : "",
+                              Position = (dg.Element("Position") != null) ? dg.Element("Position").Value : "",
                               dg.Parent
 
                           });
 
-            String text = @"<document>
-                            <nodes>";
+            String text = 
+@"<document>
+    <nodes>
+";
             foreach (var group in groups)
             {
                 string ParentID = "";
                 string ParentID2 = "";
                 if (group.Parent != null && group.Parent.Parent!=null)
                 {
-                    ParentID = group.Parent.Parent.Element("ContentItemVersionId").Value;
-                    ParentID2 = group.Parent.Parent.Element("ContentItemId").Value;
+                    ParentID =( group.Parent.Parent.Element("ContentItemVersionId")!=null)?group.Parent.Parent.Element("ContentItemVersionId").Value:"";
+                    ParentID2 = (group.Parent.Parent.Element("ContentItemId")!=null)?group.Parent.Parent.Element("ContentItemId").Value:"";
                 }
                 // viet ra cấu trúc cần thiết
             //    <node type="poste" parent="">
             //    <id></id>
             //    <position></position>
             //</node>
-                String note = String.Format(@"<node type=""{0}"" ParentVersionId=""{1}"" ParentId=""{4}"">
-                                <VersionId>{2}</VersionId>
-                                <id>{5}<id>
-                                <position>{3}</position>
-                                </node>", group.contentType, ParentID, group.ID, group.Position, ParentID2,group.ID2);
+                String note = String.Format(
+@"      <node type=""{0}"" ParentVersionId=""{1}"" ParentId=""{4}"">
+            <VersionId>{2}</VersionId>
+            <id>{5}</id>
+            <position>{3}</position>
+        </node>
+", group.contentType, ParentID, group.ID, group.Position, ParentID2,group.ID2);
                 text += note;
 
                 //  sikkerSone += group.g + ";";
             }
-            text += @"</nodes>
-                        </document>";
+            text += 
+@"  </nodes>
+</document>";
+            using (FileStream fs = new FileStream("result.xml", FileMode.Append, FileAccess.Write))
+            using (StreamWriter sw = new StreamWriter(fs))
+            {
+                sw.WriteLine(text);
+            }
         }
     }
 }
