@@ -34,6 +34,8 @@
             this.txtTo = new System.Windows.Forms.TextBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lbNumberRecord = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // raAll
@@ -93,11 +95,30 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Đến ID";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(23, 102);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(120, 13);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Số lượng record đã đọc";
+            // 
+            // lbNumberRecord
+            // 
+            this.lbNumberRecord.AutoSize = true;
+            this.lbNumberRecord.Location = new System.Drawing.Point(164, 102);
+            this.lbNumberRecord.Name = "lbNumberRecord";
+            this.lbNumberRecord.Size = new System.Drawing.Size(0, 13);
+            this.lbNumberRecord.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(322, 101);
+            this.ClientSize = new System.Drawing.Size(322, 145);
+            this.Controls.Add(this.lbNumberRecord);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.txtTo);
@@ -120,6 +141,8 @@
         private System.Windows.Forms.TextBox txtTo;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbNumberRecord;
     }
 }
 

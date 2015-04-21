@@ -6,6 +6,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
@@ -90,6 +91,22 @@ namespace WindowsFormsApplication2
 
         private void buttonExport_Click(object sender, EventArgs e)
         {
+            
+
+            // Create the thread object, passing in the Alpha.Beta method
+            // via a ThreadStart delegate. This does not start the thread.
+            Thread oThread = new Thread(new ThreadStart(extract));
+
+            // Start the thread
+            oThread.Start();
+
+
+            //extract();
+            
+        }
+
+        private void extract()
+        {
             var et = new Orchard_Edilexpert_PRODEntities();
 
             if (radioButton1.Checked)
@@ -98,17 +115,17 @@ namespace WindowsFormsApplication2
                 int _to = Convert.ToInt32(txtTo.Text);
                 //blogs = et.Edilex_Documents_DocumentPartRecord.Where(r => r.Id >= _from && r.Id <= _to && r.DocBlockTree != null).Select(r=>r.DocBlockTree).ToList();
                 data = (from b in et.Edilex_Documents_DocumentPartRecord
-                         where b.Id >= _from && b.Id <= _to && b.DocBlockTree != null
-                         select b.DocBlockTree).ToList();
+                        where b.Id >= _from && b.Id <= _to && b.DocBlockTree != null
+                        select b.DocBlockTree).ToList();
             }
             else if (raAll.Checked)
             {
                 data = (from b in et.Edilex_Documents_DocumentPartRecord
-                         where b.DocBlockTree != null
-                         select b.DocBlockTree).ToList();
+                        where b.DocBlockTree != null
+                        select b.DocBlockTree).ToList();
 
             }
-            if (data == null||data.Count==0)
+            if (data == null || data.Count == 0)
             {
                 MessageBox.Show("Không có dữ liệu Docblock trong khoảng chọn");
                 return;
@@ -124,11 +141,18 @@ namespace WindowsFormsApplication2
                 sw.WriteLine("<documents>");
             }
             // var student = L2EQuery.FirstOrDefault<String>();
+            int dem = 0;
             foreach (var contents in data)
             {
                 String contents2 = contents.Replace("utf-16", "utf-8");
                 System.IO.File.WriteAllText(@"input.xml", contents2);
                 Read();
+                dem++;
+                lbNumberRecord.Invoke(new MethodInvoker(() =>
+                {
+                    lbNumberRecord.Text = dem.ToString();
+                }));
+                
             }
             // write đoạn cuối
             using (FileStream fs = new FileStream("result.xml", FileMode.Append, FileAccess.Write))
