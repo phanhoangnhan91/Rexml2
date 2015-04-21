@@ -28,27 +28,52 @@ namespace WindowsFormsApplication2
             //{
             //    XmlNodeList chilnode = xmlNode.SelectNodes("ContentItemVersionId");
             //}
+            Read();
+        }
+
+        private void Read()
+        {
             XDocument doc = XDocument.Load("companyName.xml");
             var groups = (from dg in doc.Descendants("DocBlock")
-                         // where dg.Attribute("name").Value == "Sikker"
-                         // from g in dg.Elements("ContentType")
+                          // where dg.Attribute("name").Value == "Sikker"
+                          // from g in dg.Elements("ContentType")
                           select new
-                              {
-                                  contentType = dg.Element("ContentType").Value,
-                                  ID = dg.Element("ContentItemVersionId").Value,
-                                  Position = dg.Element("Position").Value,
-                                  dg.Parent.Parent
+                          {
+                              contentType = dg.Element("ContentType").Value,
+                              ID = dg.Element("ContentItemVersionId").Value,
+                              ID2 = dg.Element("ContentItemId").Value,
+                              Position = dg.Element("Position").Value,
+                              dg.Parent
 
-                              });
+                          });
 
+            String text = @"<document>
+                            <nodes>";
             foreach (var group in groups)
             {
                 string ParentID = "";
-                if(group.Parent!=null)
-                  ParentID= group.Parent.Element("ContentItemVersionId").Value;
+                string ParentID2 = "";
+                if (group.Parent != null && group.Parent.Parent!=null)
+                {
+                    ParentID = group.Parent.Parent.Element("ContentItemVersionId").Value;
+                    ParentID2 = group.Parent.Parent.Element("ContentItemId").Value;
+                }
+                // viet ra cấu trúc cần thiết
+            //    <node type="poste" parent="">
+            //    <id></id>
+            //    <position></position>
+            //</node>
+                String note = String.Format(@"<node type=""{0}"" ParentVersionId=""{1}"" ParentId=""{4}"">
+                                <VersionId>{2}</VersionId>
+                                <id>{5}<id>
+                                <position>{3}</position>
+                                </node>", group.contentType, ParentID, group.ID, group.Position, ParentID2,group.ID2);
+                text += note;
 
-              //  sikkerSone += group.g + ";";
+                //  sikkerSone += group.g + ";";
             }
+            text += @"</nodes>
+                        </document>";
         }
     }
 }

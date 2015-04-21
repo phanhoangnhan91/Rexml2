@@ -1,55 +1,2144 @@
-<root>
-    <DocBlock>
-		<DocumentId>225309</DocumentId>
-		<ContentType>Poste</ContentType>
-		<ContentItemId>183</ContentItemId>
-		<ContentItemVersionId>198</ContentItemVersionId>
-		<ClauseMasterId>0</ClauseMasterId>
-		<ClauseOriginId>183</ClauseOriginId>
-		<ClauseVersion />
-		<Position>1</Position>
-		<EdilexIdentifier />
-		<NonAvailable>false</NonAvailable>
-		<IsUnique>false</IsUnique>
-		<IsUserChoice>false</IsUserChoice>
-		<FacultativeRefused>false</FacultativeRefused>
-		<IsFacultative>false</IsFacultative>
-		<Children>
-			<DocBlock>
-				<DocumentId>225309</DocumentId>
-				<ContentType>Poste</ContentType>
-				<ContentItemId>177</ContentItemId>
-				<ContentItemVersionId>192</ContentItemVersionId>
-				<ClauseMasterId>0</ClauseMasterId>
-				<ClauseOriginId>177</ClauseOriginId>
-				<ClauseVersion />
-				<Position>2</Position>
-				<EdilexIdentifier />
-				<NonAvailable>false</NonAvailable>
-				<IsUnique>false</IsUnique>
-				<IsUserChoice>false</IsUserChoice>
-				<FacultativeRefused>false</FacultativeRefused>
-				<IsFacultative>false</IsFacultative>
-				<Children>
-					<DocBlock>
-						<DocumentId>225309</DocumentId>
-						<ContentType>Poste</ContentType>
-						<ContentItemId>177</ContentItemId>
-						<ContentItemVersionId>192</ContentItemVersionId>
-						<ClauseMasterId>0</ClauseMasterId>
-						<ClauseOriginId>177</ClauseOriginId>
-						<ClauseVersion />
-						<Position>2</Position>
-						<EdilexIdentifier />
-						<NonAvailable>false</NonAvailable>
-						<IsUnique>false</IsUnique>
-						<IsUserChoice>false</IsUserChoice>
-						<FacultativeRefused>false</FacultativeRefused>
-						<IsFacultative>false</IsFacultative>
-						<Children />
-					</DocBlock>
-				</Children>
-			</DocBlock>
-		</Children>
-	</DocBlock>
-</root>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocBlock xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DocumentId>225302</DocumentId>
+	<ContentType>Document</ContentType>
+	<ContentItemId>175962</ContentItemId>
+	<ContentItemVersionId>225302</ContentItemVersionId>
+	<ClauseMasterId>0</ClauseMasterId>
+	<ClauseOriginId>175962</ClauseOriginId>
+	<ClauseVersion />
+	<Position>0</Position>
+	<EdilexIdentifier />
+	<NonAvailable>false</NonAvailable>
+	<IsUnique>false</IsUnique>
+	<IsUserChoice>false</IsUserChoice>
+	<FacultativeRefused>false</FacultativeRefused>
+	<IsFacultative>false</IsFacultative>
+	<Children>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>183</ContentItemId>
+			<ContentItemVersionId>198</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>183</ClauseOriginId>
+			<ClauseVersion />
+			<Position>1</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children />
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>177</ContentItemId>
+			<ContentItemVersionId>192</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>177</ClauseOriginId>
+			<ClauseVersion />
+			<Position>2</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children />
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>180</ContentItemId>
+			<ContentItemVersionId>195</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>180</ClauseOriginId>
+			<ClauseVersion />
+			<Position>3</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children />
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>159</ContentItemId>
+			<ContentItemVersionId>174</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>159</ClauseOriginId>
+			<ClauseVersion />
+			<Position>4</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Section</ContentType>
+					<ContentItemId>10040</ContentItemId>
+					<ContentItemVersionId>10404</ContentItemVersionId>
+					<ClauseMasterId>0</ClauseMasterId>
+					<ClauseOriginId>10040</ClauseOriginId>
+					<ClauseVersion />
+					<Position>1</Position>
+					<EdilexIdentifier />
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>Clause</ContentType>
+							<ContentItemId>127269</ContentItemId>
+							<ContentItemVersionId>158672</ContentItemVersionId>
+							<ClauseMasterId>10042</ClauseMasterId>
+							<ClauseOriginId>127269</ClauseOriginId>
+							<ClauseVersion>D�taill�e</ClauseVersion>
+							<Position>17</Position>
+							<EdilexIdentifier>00</EdilexIdentifier>
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>Clause</ContentType>
+							<ContentItemId>127277</ContentItemId>
+							<ContentItemVersionId>158718</ContentItemVersionId>
+							<ClauseMasterId>10047</ClauseMasterId>
+							<ClauseOriginId>127277</ClauseOriginId>
+							<ClauseVersion>D�taill�e</ClauseVersion>
+							<Position>46</Position>
+							<EdilexIdentifier>00</EdilexIdentifier>
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+					</Children>
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10074</ContentItemId>
+					<ContentItemVersionId>79497</ContentItemVersionId>
+					<ClauseMasterId>10074</ClauseMasterId>
+					<ClauseOriginId>10074</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>8</Position>
+					<EdilexIdentifier>00</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+			</Children>
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>146</ContentItemId>
+			<ContentItemVersionId>161</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>146</ClauseOriginId>
+			<ClauseVersion />
+			<Position>5</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>63253</ContentItemId>
+					<ContentItemVersionId>84368</ContentItemVersionId>
+					<ClauseMasterId>10160</ClauseMasterId>
+					<ClauseOriginId>63253</ClauseOriginId>
+					<ClauseVersion>Introductive</ClauseVersion>
+					<Position>1</Position>
+					<EdilexIdentifier>01</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+			</Children>
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>153</ContentItemId>
+			<ContentItemVersionId>168</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>153</ClauseOriginId>
+			<ClauseVersion />
+			<Position>6</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>63254</ContentItemId>
+					<ContentItemVersionId>93752</ContentItemVersionId>
+					<ClauseMasterId>10124</ClauseMasterId>
+					<ClauseOriginId>63254</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>4</Position>
+					<EdilexIdentifier>02</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>63255</ContentItemId>
+					<ContentItemVersionId>79760</ContentItemVersionId>
+					<ClauseMasterId>10125</ClauseMasterId>
+					<ClauseOriginId>63255</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>23</Position>
+					<EdilexIdentifier>02</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>74026</ContentItemId>
+					<ContentItemVersionId>99006</ContentItemVersionId>
+					<ClauseMasterId>438</ClauseMasterId>
+					<ClauseOriginId>74026</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>29</Position>
+					<EdilexIdentifier>02</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>true</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>true</IsFacultative>
+					<Children />
+				</DocBlock>
+			</Children>
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>150</ContentItemId>
+			<ContentItemVersionId>165</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>150</ClauseOriginId>
+			<ClauseVersion />
+			<Position>7</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>151647</ContentItemId>
+					<ContentItemVersionId>196128</ContentItemVersionId>
+					<ClauseMasterId>504</ClauseMasterId>
+					<ClauseOriginId>151647</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>10</Position>
+					<EdilexIdentifier>03</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>154556</ContentItemId>
+							<ContentItemVersionId>196131</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>154556</ClauseOriginId>
+							<ClauseVersion />
+							<Position>1</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>154557</ContentItemId>
+									<ContentItemVersionId>196132</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>154557</ClauseOriginId>
+									<ClauseVersion />
+									<Position>1</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>154558</ContentItemId>
+									<ContentItemVersionId>196133</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>154558</ClauseOriginId>
+									<ClauseVersion />
+									<Position>2</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>154559</ContentItemId>
+									<ContentItemVersionId>196134</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>154559</ClauseOriginId>
+									<ClauseVersion />
+									<Position>3</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>154560</ContentItemId>
+									<ContentItemVersionId>196135</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>154560</ClauseOriginId>
+									<ClauseVersion />
+									<Position>4</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+							</Children>
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>154561</ContentItemId>
+							<ContentItemVersionId>196136</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>154561</ClauseOriginId>
+							<ClauseVersion />
+							<Position>2</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>154562</ContentItemId>
+									<ContentItemVersionId>196137</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>154562</ClauseOriginId>
+									<ClauseVersion />
+									<Position>1</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>154569</ContentItemId>
+									<ContentItemVersionId>196156</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>154569</ClauseOriginId>
+									<ClauseVersion />
+									<Position>2</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>154563</ContentItemId>
+									<ContentItemVersionId>196138</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>154563</ClauseOriginId>
+									<ClauseVersion />
+									<Position>3</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>154565</ContentItemId>
+									<ContentItemVersionId>196144</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>154565</ClauseOriginId>
+									<ClauseVersion />
+									<Position>4</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+							</Children>
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>154566</ContentItemId>
+							<ContentItemVersionId>196145</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>154566</ClauseOriginId>
+							<ClauseVersion />
+							<Position>3</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+					</Children>
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>76420</ContentItemId>
+					<ContentItemVersionId>207186</ContentItemVersionId>
+					<ClauseMasterId>76420</ClauseMasterId>
+					<ClauseOriginId>76420</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>13</Position>
+					<EdilexIdentifier>03</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10127</ContentItemId>
+					<ContentItemVersionId>88476</ContentItemVersionId>
+					<ClauseMasterId>10127</ClauseMasterId>
+					<ClauseOriginId>10127</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>29</Position>
+					<EdilexIdentifier>03</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10128</ContentItemId>
+					<ContentItemVersionId>86368</ContentItemVersionId>
+					<ClauseMasterId>10128</ClauseMasterId>
+					<ClauseOriginId>10128</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>34</Position>
+					<EdilexIdentifier>03</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>97368</ContentItemId>
+					<ContentItemVersionId>185150</ContentItemVersionId>
+					<ClauseMasterId>97368</ClauseMasterId>
+					<ClauseOriginId>97368</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>43</Position>
+					<EdilexIdentifier>03</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>true</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>true</IsFacultative>
+					<Children>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>104990</ContentItemId>
+							<ContentItemVersionId>185151</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>104990</ClauseOriginId>
+							<ClauseVersion />
+							<Position>1</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>104991</ContentItemId>
+							<ContentItemVersionId>185152</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>104991</ClauseOriginId>
+							<ClauseVersion />
+							<Position>2</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>104992</ContentItemId>
+							<ContentItemVersionId>185153</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>104992</ClauseOriginId>
+							<ClauseVersion />
+							<Position>3</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+					</Children>
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>77881</ContentItemId>
+					<ContentItemVersionId>191491</ContentItemVersionId>
+					<ClauseMasterId>77881</ClauseMasterId>
+					<ClauseOriginId>77881</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>45</Position>
+					<EdilexIdentifier>03</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>true</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>true</IsFacultative>
+					<Children />
+				</DocBlock>
+			</Children>
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>124</ContentItemId>
+			<ContentItemVersionId>139</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>124</ClauseOriginId>
+			<ClauseVersion />
+			<Position>8</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>507</ContentItemId>
+					<ContentItemVersionId>100930</ContentItemVersionId>
+					<ClauseMasterId>507</ClauseMasterId>
+					<ClauseOriginId>507</ClauseOriginId>
+					<ClauseVersion>Introductive</ClauseVersion>
+					<Position>1</Position>
+					<EdilexIdentifier>04</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+			</Children>
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>144</ContentItemId>
+			<ContentItemVersionId>159</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>144</ClauseOriginId>
+			<ClauseVersion />
+			<Position>9</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10462</ContentItemId>
+					<ContentItemVersionId>88047</ContentItemVersionId>
+					<ClauseMasterId>10462</ClauseMasterId>
+					<ClauseOriginId>10462</ClauseOriginId>
+					<ClauseVersion>Introductive</ClauseVersion>
+					<Position>1</Position>
+					<EdilexIdentifier>05</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+			</Children>
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>141</ContentItemId>
+			<ContentItemVersionId>156</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>141</ClauseOriginId>
+			<ClauseVersion />
+			<Position>10</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>78869</ContentItemId>
+					<ContentItemVersionId>109949</ContentItemVersionId>
+					<ClauseMasterId>10231</ClauseMasterId>
+					<ClauseOriginId>78869</ClauseOriginId>
+					<ClauseVersion>N�gative</ClauseVersion>
+					<Position>1</Position>
+					<EdilexIdentifier>06</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+			</Children>
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>122</ContentItemId>
+			<ContentItemVersionId>72620</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>122</ClauseOriginId>
+			<ClauseVersion />
+			<Position>11</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>51354</ContentItemId>
+					<ContentItemVersionId>79726</ContentItemVersionId>
+					<ClauseMasterId>529</ClauseMasterId>
+					<ClauseOriginId>51354</ClauseOriginId>
+					<ClauseVersion>Introductive</ClauseVersion>
+					<Position>2</Position>
+					<EdilexIdentifier>07</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>true</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>22755</ContentItemId>
+					<ContentItemVersionId>118987</ContentItemVersionId>
+					<ClauseMasterId>22755</ClauseMasterId>
+					<ClauseOriginId>22755</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>9</Position>
+					<EdilexIdentifier>07</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>22757</ContentItemId>
+					<ContentItemVersionId>136570</ContentItemVersionId>
+					<ClauseMasterId>22757</ClauseMasterId>
+					<ClauseOriginId>22757</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>10</Position>
+					<EdilexIdentifier>07</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+			</Children>
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>156</ContentItemId>
+			<ContentItemVersionId>171</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>156</ClauseOriginId>
+			<ClauseVersion />
+			<Position>12</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10131</ContentItemId>
+					<ContentItemVersionId>88055</ContentItemVersionId>
+					<ClauseMasterId>10131</ClauseMasterId>
+					<ClauseOriginId>10131</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>2</Position>
+					<EdilexIdentifier>08</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>79271</ContentItemId>
+					<ContentItemVersionId>93765</ContentItemVersionId>
+					<ClauseMasterId>10129</ClauseMasterId>
+					<ClauseOriginId>79271</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>5</Position>
+					<EdilexIdentifier>08</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+			</Children>
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>162</ContentItemId>
+			<ContentItemVersionId>177</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>162</ClauseOriginId>
+			<ClauseVersion />
+			<Position>13</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10135</ContentItemId>
+					<ContentItemVersionId>92503</ContentItemVersionId>
+					<ClauseMasterId>10135</ClauseMasterId>
+					<ClauseOriginId>10135</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>18</Position>
+					<EdilexIdentifier>09</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10134</ContentItemId>
+					<ContentItemVersionId>88056</ContentItemVersionId>
+					<ClauseMasterId>10134</ClauseMasterId>
+					<ClauseOriginId>10134</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>38</Position>
+					<EdilexIdentifier>09</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+			</Children>
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>234</ContentItemId>
+			<ContentItemVersionId>72621</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>234</ClauseOriginId>
+			<ClauseVersion />
+			<Position>14</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10136</ContentItemId>
+					<ContentItemVersionId>79509</ContentItemVersionId>
+					<ClauseMasterId>10136</ClauseMasterId>
+					<ClauseOriginId>10136</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>9</Position>
+					<EdilexIdentifier>10</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>68518</ContentItemId>
+					<ContentItemVersionId>108843</ContentItemVersionId>
+					<ClauseMasterId>22842</ClauseMasterId>
+					<ClauseOriginId>68518</ClauseOriginId>
+					<ClauseVersion>Simplifi�e</ClauseVersion>
+					<Position>21</Position>
+					<EdilexIdentifier>10</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>true</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>97371</ContentItemId>
+					<ContentItemVersionId>120549</ContentItemVersionId>
+					<ClauseMasterId>97371</ClauseMasterId>
+					<ClauseOriginId>97371</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>27</Position>
+					<EdilexIdentifier>10</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10236</ContentItemId>
+					<ContentItemVersionId>99898</ContentItemVersionId>
+					<ClauseMasterId>10236</ClauseMasterId>
+					<ClauseOriginId>10236</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>42</Position>
+					<EdilexIdentifier>10</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>10237</ContentItemId>
+							<ContentItemVersionId>99899</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>10237</ClauseOriginId>
+							<ClauseVersion />
+							<Position>1</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>10241</ContentItemId>
+									<ContentItemVersionId>99900</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>10241</ClauseOriginId>
+									<ClauseVersion />
+									<Position>1</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>10242</ContentItemId>
+									<ContentItemVersionId>99901</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>10242</ClauseOriginId>
+									<ClauseVersion />
+									<Position>2</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+							</Children>
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>10238</ContentItemId>
+							<ContentItemVersionId>99902</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>10238</ClauseOriginId>
+							<ClauseVersion />
+							<Position>2</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>10239</ContentItemId>
+							<ContentItemVersionId>99903</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>10239</ClauseOriginId>
+							<ClauseVersion />
+							<Position>3</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+					</Children>
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>107777</ContentItemId>
+					<ContentItemVersionId>134797</ContentItemVersionId>
+					<ClauseMasterId>10149</ClauseMasterId>
+					<ClauseOriginId>107777</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>86</Position>
+					<EdilexIdentifier>10</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>107778</ContentItemId>
+							<ContentItemVersionId>134798</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>107778</ClauseOriginId>
+							<ClauseVersion />
+							<Position>1</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>107779</ContentItemId>
+							<ContentItemVersionId>134799</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>107779</ClauseOriginId>
+							<ClauseVersion />
+							<Position>2</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+					</Children>
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Section</ContentType>
+					<ContentItemId>10165</ContentItemId>
+					<ContentItemVersionId>10535</ContentItemVersionId>
+					<ClauseMasterId>0</ClauseMasterId>
+					<ClauseOriginId>10165</ClauseOriginId>
+					<ClauseVersion />
+					<Position>87</Position>
+					<EdilexIdentifier />
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>Clause</ContentType>
+							<ContentItemId>88779</ContentItemId>
+							<ContentItemVersionId>108277</ContentItemVersionId>
+							<ClauseMasterId>88779</ClauseMasterId>
+							<ClauseOriginId>88779</ClauseOriginId>
+							<ClauseVersion>D�taill�e</ClauseVersion>
+							<Position>6</Position>
+							<EdilexIdentifier>10</EdilexIdentifier>
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+					</Children>
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>126009</ContentItemId>
+					<ContentItemVersionId>156960</ContentItemVersionId>
+					<ClauseMasterId>79182</ClauseMasterId>
+					<ClauseOriginId>126009</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>89</Position>
+					<EdilexIdentifier>10</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>true</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>true</IsFacultative>
+					<Children>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>126010</ContentItemId>
+							<ContentItemVersionId>156961</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>126010</ClauseOriginId>
+							<ClauseVersion />
+							<Position>1</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>126011</ContentItemId>
+							<ContentItemVersionId>156962</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>126011</ClauseOriginId>
+							<ClauseVersion />
+							<Position>2</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+					</Children>
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>84301</ContentItemId>
+					<ContentItemVersionId>102580</ContentItemVersionId>
+					<ClauseMasterId>84301</ClauseMasterId>
+					<ClauseOriginId>84301</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>90</Position>
+					<EdilexIdentifier>10</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>68488</ContentItemId>
+					<ContentItemVersionId>113552</ContentItemVersionId>
+					<ClauseMasterId>10169</ClauseMasterId>
+					<ClauseOriginId>68488</ClauseOriginId>
+					<ClauseVersion>Simplifi�e</ClauseVersion>
+					<Position>129</Position>
+					<EdilexIdentifier>10</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>107856</ContentItemId>
+					<ContentItemVersionId>134918</ContentItemVersionId>
+					<ClauseMasterId>107856</ClauseMasterId>
+					<ClauseOriginId>107856</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>148</Position>
+					<EdilexIdentifier>10</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>true</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>68484</ContentItemId>
+					<ContentItemVersionId>85974</ContentItemVersionId>
+					<ClauseMasterId>586</ClauseMasterId>
+					<ClauseOriginId>68484</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>149</Position>
+					<EdilexIdentifier>10</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>true</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>true</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10180</ContentItemId>
+					<ContentItemVersionId>199704</ContentItemVersionId>
+					<ClauseMasterId>10180</ClauseMasterId>
+					<ClauseOriginId>10180</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>180</Position>
+					<EdilexIdentifier>10</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>10181</ContentItemId>
+							<ContentItemVersionId>199705</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>10181</ClauseOriginId>
+							<ClauseVersion />
+							<Position>1</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>10578</ContentItemId>
+									<ContentItemVersionId>199706</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>10578</ClauseOriginId>
+									<ClauseVersion />
+									<Position>1</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>10579</ContentItemId>
+									<ContentItemVersionId>199707</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>10579</ClauseOriginId>
+									<ClauseVersion />
+									<Position>2</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+							</Children>
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>10580</ContentItemId>
+							<ContentItemVersionId>199708</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>10580</ClauseOriginId>
+							<ClauseVersion />
+							<Position>2</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>10182</ContentItemId>
+							<ContentItemVersionId>199709</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>10182</ClauseOriginId>
+							<ClauseVersion />
+							<Position>3</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>10669</ContentItemId>
+									<ContentItemVersionId>199710</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>10669</ClauseOriginId>
+									<ClauseVersion />
+									<Position>1</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>10670</ContentItemId>
+									<ContentItemVersionId>199711</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>10670</ClauseOriginId>
+									<ClauseVersion />
+									<Position>2</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>10671</ContentItemId>
+									<ContentItemVersionId>199712</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>10671</ClauseOriginId>
+									<ClauseVersion />
+									<Position>3</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>10672</ContentItemId>
+									<ContentItemVersionId>199713</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>10672</ClauseOriginId>
+									<ClauseVersion />
+									<Position>4</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>10673</ContentItemId>
+									<ContentItemVersionId>199714</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>10673</ClauseOriginId>
+									<ClauseVersion />
+									<Position>5</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+							</Children>
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>10183</ContentItemId>
+							<ContentItemVersionId>199715</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>10183</ClauseOriginId>
+							<ClauseVersion />
+							<Position>4</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>10674</ContentItemId>
+									<ContentItemVersionId>199716</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>10674</ClauseOriginId>
+									<ClauseVersion />
+									<Position>1</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>10676</ContentItemId>
+									<ContentItemVersionId>199717</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>10676</ClauseOriginId>
+									<ClauseVersion />
+									<Position>2</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+								<DocBlock>
+									<DocumentId>225309</DocumentId>
+									<ContentType>SubClause</ContentType>
+									<ContentItemId>10677</ContentItemId>
+									<ContentItemVersionId>199718</ContentItemVersionId>
+									<ClauseMasterId>0</ClauseMasterId>
+									<ClauseOriginId>10677</ClauseOriginId>
+									<ClauseVersion />
+									<Position>3</Position>
+									<EdilexIdentifier />
+									<NonAvailable>false</NonAvailable>
+									<IsUnique>false</IsUnique>
+									<IsUserChoice>false</IsUserChoice>
+									<FacultativeRefused>false</FacultativeRefused>
+									<IsFacultative>false</IsFacultative>
+									<Children />
+								</DocBlock>
+							</Children>
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>118777</ContentItemId>
+							<ContentItemVersionId>199719</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>118777</ClauseOriginId>
+							<ClauseVersion />
+							<Position>5</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>true</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>true</IsFacultative>
+							<Children />
+						</DocBlock>
+					</Children>
+				</DocBlock>
+			</Children>
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>138</ContentItemId>
+			<ContentItemVersionId>153</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>138</ClauseOriginId>
+			<ClauseVersion />
+			<Position>15</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>68493</ContentItemId>
+					<ContentItemVersionId>79775</ContentItemVersionId>
+					<ClauseMasterId>68493</ClauseMasterId>
+					<ClauseOriginId>68493</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>6</Position>
+					<EdilexIdentifier>11</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10186</ContentItemId>
+					<ContentItemVersionId>124443</ContentItemVersionId>
+					<ClauseMasterId>10186</ClauseMasterId>
+					<ClauseOriginId>10186</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>16</Position>
+					<EdilexIdentifier>11</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+			</Children>
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>135</ContentItemId>
+			<ContentItemVersionId>150</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>135</ClauseOriginId>
+			<ClauseVersion />
+			<Position>16</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10187</ContentItemId>
+					<ContentItemVersionId>79569</ContentItemVersionId>
+					<ClauseMasterId>10187</ClauseMasterId>
+					<ClauseOriginId>10187</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>2</Position>
+					<EdilexIdentifier>12</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>80344</ContentItemId>
+					<ContentItemVersionId>96179</ContentItemVersionId>
+					<ClauseMasterId>68494</ClauseMasterId>
+					<ClauseOriginId>80344</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>4</Position>
+					<EdilexIdentifier>12</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10193</ContentItemId>
+					<ContentItemVersionId>88417</ContentItemVersionId>
+					<ClauseMasterId>10193</ClauseMasterId>
+					<ClauseOriginId>10193</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>6</Position>
+					<EdilexIdentifier>12</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10195</ContentItemId>
+					<ContentItemVersionId>79575</ContentItemVersionId>
+					<ClauseMasterId>10195</ClauseMasterId>
+					<ClauseOriginId>10195</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>8</Position>
+					<EdilexIdentifier>12</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+			</Children>
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>131</ContentItemId>
+			<ContentItemVersionId>146</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>131</ClauseOriginId>
+			<ClauseVersion />
+			<Position>17</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10197</ContentItemId>
+					<ContentItemVersionId>86657</ContentItemVersionId>
+					<ClauseMasterId>10197</ClauseMasterId>
+					<ClauseOriginId>10197</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>1</Position>
+					<EdilexIdentifier>13</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10199</ContentItemId>
+					<ContentItemVersionId>138027</ContentItemVersionId>
+					<ClauseMasterId>10199</ClauseMasterId>
+					<ClauseOriginId>10199</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>7</Position>
+					<EdilexIdentifier>13</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>10581</ContentItemId>
+							<ContentItemVersionId>138028</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>10581</ClauseOriginId>
+							<ClauseVersion />
+							<Position>1</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>10582</ContentItemId>
+							<ContentItemVersionId>138029</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>10582</ClauseOriginId>
+							<ClauseVersion />
+							<Position>2</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>10583</ContentItemId>
+							<ContentItemVersionId>138030</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>10583</ClauseOriginId>
+							<ClauseVersion />
+							<Position>3</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>10584</ContentItemId>
+							<ContentItemVersionId>138031</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>10584</ClauseOriginId>
+							<ClauseVersion />
+							<Position>4</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+					</Children>
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>97370</ContentItemId>
+					<ContentItemVersionId>120548</ContentItemVersionId>
+					<ClauseMasterId>97370</ClauseMasterId>
+					<ClauseOriginId>97370</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>15</Position>
+					<EdilexIdentifier>13</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10201</ContentItemId>
+					<ContentItemVersionId>217768</ContentItemVersionId>
+					<ClauseMasterId>10201</ClauseMasterId>
+					<ClauseOriginId>10201</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>20</Position>
+					<EdilexIdentifier>13</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+			</Children>
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>128</ContentItemId>
+			<ContentItemVersionId>143</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>128</ClauseOriginId>
+			<ClauseVersion />
+			<Position>18</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>71778</ContentItemId>
+					<ContentItemVersionId>88483</ContentItemVersionId>
+					<ClauseMasterId>10202</ClauseMasterId>
+					<ClauseOriginId>71778</ClauseOriginId>
+					<ClauseVersion>Introductive</ClauseVersion>
+					<Position>1</Position>
+					<EdilexIdentifier>14</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+			</Children>
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>165</ContentItemId>
+			<ContentItemVersionId>180</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>165</ClauseOriginId>
+			<ClauseVersion />
+			<Position>19</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>76762</ContentItemId>
+					<ContentItemVersionId>88587</ContentItemVersionId>
+					<ClauseMasterId>10294</ClauseMasterId>
+					<ClauseOriginId>76762</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>2</Position>
+					<EdilexIdentifier>15</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>true</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>73528</ContentItemId>
+					<ContentItemVersionId>99001</ContentItemVersionId>
+					<ClauseMasterId>53672</ClauseMasterId>
+					<ClauseOriginId>73528</ClauseOriginId>
+					<ClauseVersion>Simplifi�e</ClauseVersion>
+					<Position>6</Position>
+					<EdilexIdentifier>15</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>true</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>true</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10204</ContentItemId>
+					<ContentItemVersionId>88445</ContentItemVersionId>
+					<ClauseMasterId>10204</ClauseMasterId>
+					<ClauseOriginId>10204</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>14</Position>
+					<EdilexIdentifier>15</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10205</ContentItemId>
+					<ContentItemVersionId>94248</ContentItemVersionId>
+					<ClauseMasterId>10205</ClauseMasterId>
+					<ClauseOriginId>10205</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>16</Position>
+					<EdilexIdentifier>15</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+			</Children>
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>168</ContentItemId>
+			<ContentItemVersionId>183</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>168</ClauseOriginId>
+			<ClauseVersion />
+			<Position>20</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10206</ContentItemId>
+					<ContentItemVersionId>134271</ContentItemVersionId>
+					<ClauseMasterId>10206</ClauseMasterId>
+					<ClauseOriginId>10206</ClauseOriginId>
+					<ClauseVersion>Introductive</ClauseVersion>
+					<Position>1</Position>
+					<EdilexIdentifier>16</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children />
+				</DocBlock>
+			</Children>
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>171</ContentItemId>
+			<ContentItemVersionId>186</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>171</ClauseOriginId>
+			<ClauseVersion />
+			<Position>21</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children />
+		</DocBlock>
+		<DocBlock>
+			<DocumentId>225309</DocumentId>
+			<ContentType>Poste</ContentType>
+			<ContentItemId>174</ContentItemId>
+			<ContentItemVersionId>262</ContentItemVersionId>
+			<ClauseMasterId>0</ClauseMasterId>
+			<ClauseOriginId>174</ClauseOriginId>
+			<ClauseVersion />
+			<Position>22</Position>
+			<EdilexIdentifier />
+			<NonAvailable>false</NonAvailable>
+			<IsUnique>false</IsUnique>
+			<IsUserChoice>false</IsUserChoice>
+			<FacultativeRefused>false</FacultativeRefused>
+			<IsFacultative>false</IsFacultative>
+			<Children>
+				<DocBlock>
+					<DocumentId>225309</DocumentId>
+					<ContentType>Clause</ContentType>
+					<ContentItemId>10254</ContentItemId>
+					<ContentItemVersionId>196784</ContentItemVersionId>
+					<ClauseMasterId>10254</ClauseMasterId>
+					<ClauseOriginId>10254</ClauseOriginId>
+					<ClauseVersion>D�taill�e</ClauseVersion>
+					<Position>40</Position>
+					<EdilexIdentifier>AN</EdilexIdentifier>
+					<NonAvailable>false</NonAvailable>
+					<IsUnique>false</IsUnique>
+					<IsUserChoice>false</IsUserChoice>
+					<FacultativeRefused>false</FacultativeRefused>
+					<IsFacultative>false</IsFacultative>
+					<Children>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>73611</ContentItemId>
+							<ContentItemVersionId>196785</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>73611</ClauseOriginId>
+							<ClauseVersion />
+							<Position>1</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>73612</ContentItemId>
+							<ContentItemVersionId>196786</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>73612</ClauseOriginId>
+							<ClauseVersion />
+							<Position>2</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>73613</ContentItemId>
+							<ContentItemVersionId>196787</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>73613</ClauseOriginId>
+							<ClauseVersion />
+							<Position>3</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>73633</ContentItemId>
+							<ContentItemVersionId>196788</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>73633</ClauseOriginId>
+							<ClauseVersion />
+							<Position>4</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+						<DocBlock>
+							<DocumentId>225309</DocumentId>
+							<ContentType>SubClause</ContentType>
+							<ContentItemId>73652</ContentItemId>
+							<ContentItemVersionId>196789</ContentItemVersionId>
+							<ClauseMasterId>0</ClauseMasterId>
+							<ClauseOriginId>73652</ClauseOriginId>
+							<ClauseVersion />
+							<Position>5</Position>
+							<EdilexIdentifier />
+							<NonAvailable>false</NonAvailable>
+							<IsUnique>false</IsUnique>
+							<IsUserChoice>false</IsUserChoice>
+							<FacultativeRefused>false</FacultativeRefused>
+							<IsFacultative>false</IsFacultative>
+							<Children />
+						</DocBlock>
+					</Children>
+				</DocBlock>
+			</Children>
+		</DocBlock>
+	</Children>
+</DocBlock>
