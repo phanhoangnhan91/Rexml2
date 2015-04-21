@@ -30,19 +30,7 @@ namespace WindowsFormsApplication2
             //    XmlNodeList chilnode = xmlNode.SelectNodes("ContentItemVersionId");
             //}
             
-            Orchard_Edilexpert_PRODEntities et = new Orchard_Edilexpert_PRODEntities();
-            var blogs = from b in et.Edilex_Documents_DocumentPartRecord
-                        where b.Id < 114000 && b.DocBlockTree != null
-                        select b.DocBlockTree; 
-
-           // var student = L2EQuery.FirstOrDefault<String>();
-            foreach (var contents in blogs)
-            {
-                String contents2 = contents.Replace("utf-16","utf-8");
-                System.IO.File.WriteAllText(@"input.xml", contents2);
-                Read();
-            }
-            MessageBox.Show("Done!");
+            
         }
 
         private void Read()
@@ -99,5 +87,54 @@ namespace WindowsFormsApplication2
                 sw.WriteLine(text);
             }
         }
+
+        private void buttonExport_Click(object sender, EventArgs e)
+        {
+            Orchard_Edilexpert_PRODEntities et = new Orchard_Edilexpert_PRODEntities();
+           
+            if (radioButton1.Checked)
+            {
+                int _from = Convert.ToInt32(txtFrom.Text);
+                int _to = Convert.ToInt32(txtTo.Text);
+                blogs = from b in et.Edilex_Documents_DocumentPartRecord
+                        where b.Id >= _from && b.Id <= _to && b.DocBlockTree != null
+                        select b.DocBlockTree;
+            }
+            else if (raAll.Checked)
+            {
+                blogs = from b in et.Edilex_Documents_DocumentPartRecord
+                        where  b.DocBlockTree != null
+                        select b.DocBlockTree;
+
+            }
+            if(blogs==null)
+            {
+                MessageBox.Show("Không có dữ liệu Docblock trong khoảng chọn");
+                return;
+            }
+
+            // write đoạn đầu
+            using (FileStream fs = new FileStream("result.xml", FileMode.Append, FileAccess.Write))
+            using (StreamWriter sw = new StreamWriter(fs))
+            {
+                sw.WriteLine("<documents>");
+            }
+            // var student = L2EQuery.FirstOrDefault<String>();
+            foreach (var contents in blogs)
+            {
+                String contents2 = contents.Replace("utf-16", "utf-8");
+                System.IO.File.WriteAllText(@"input.xml", contents2);
+                Read();
+            }
+            // write đoạn cuối
+            using (FileStream fs = new FileStream("result.xml", FileMode.Append, FileAccess.Write))
+            using (StreamWriter sw = new StreamWriter(fs))
+            {
+                sw.WriteLine("</documents>");
+            }
+            MessageBox.Show("Done!");
+        }
+
+        public IQueryable<string> blogs { get; set; }
     }
 }
